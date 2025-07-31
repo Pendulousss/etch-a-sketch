@@ -27,6 +27,7 @@ body {
     margin: 0gpx;;
     box-sizing: border-box;
     border: 0px solid white;
+    user-select: none;
 
 }
 

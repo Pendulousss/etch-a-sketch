@@ -1,7 +1,7 @@
     let container = document.querySelector("#container");
     let ndivs = 16;
     let sketchtoggle = false;
-    container.addEventListener("dblclick",()=>{
+    container.addEventListener("dblclick",(e)=>{
         if (sketchtoggle===false){sketchtoggle=true;}
         else if (sketchtoggle===true){sketchtoggle=false;}
     })
