@@ -30,7 +30,7 @@ let divs = container.querySelectorAll("div");
                                                     
 const btn = document.querySelector("#btn");
 btn.addEventListener("click",()=>{
-    ndivs = (prompt("Enter a number between 16 to 100"));
+    ndivs = (prompt("Enter a number between 16 to 100",16));
     if(ndivs>100){ndivs=prompt("INVALID INPUT \nEnter a number between 16 to 100")
     container.replaceChildren();
     canvasmaker(ndivs);
